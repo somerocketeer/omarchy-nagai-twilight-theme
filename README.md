@@ -37,16 +37,16 @@ See palette/nagai-sunset.yml for machine-readable values.
 - Icons (Papirus-Dark / Yaru-orange recommendation)
 
 ## Usage (manual copy)
-This repository is standalone. Copy files from apps/<app> into the corresponding application config locations.
-- Alacritty: copy apps/alacritty/alacritty.toml and import it in your Alacritty config
-- Waybar: copy apps/waybar/style.css
-- Hyprland: source apps/hyprland/colors.conf from your hyprland.conf
-- Mako: copy apps/mako/config to ~/.config/mako/config
-- btop: copy apps/btop/nagai_sunset.theme to ~/.config/btop/themes/
-- Walker: copy apps/walker/style.css to your Walker theme path
-- Neovim: add apps/neovim/lua/nagai_sunset/palette.lua to your runtime and consume it in your colorscheme
-- Chromium: see apps/chromium/README.md
-- Icons: see apps/icons/README.md
+This repository is standalone. Copy files from each top-level app folder into your config locations.
+- Alacritty: copy alacritty/alacritty.toml and import it in your Alacritty config
+- Waybar: copy waybar/style.css
+- Hyprland: source hyprland/colors.conf from your hyprland.conf
+- Mako: copy mako/config to ~/.config/mako/config
+- btop: copy btop/nagai_sunset.theme to ~/.config/btop/themes/
+- Walker: copy walker/style.css to your Walker theme path
+- Neovim: add nvim/lua/nagai_sunset/palette.lua to your runtime and consume it in your colorscheme
+- Chromium: see chromium/README.md
+- Icons: see icons/README.md
 
 No runtime integration or symlinks are included yet.
 

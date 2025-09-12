@@ -1,0 +1,31 @@
+[colors.primary]
+background = '#1A1B26'
+foreground = '#C0CAF5'
+
+[colors.cursor]
+cursor = '#FF9E64'  # Sunset orange cursor
+text = '#1A1B26'
+
+[colors.selection]
+background = '#364A82'
+text = '#C0CAF5'
+
+[colors.normal]
+black   = '#15161E'
+red     = '#F7768E'
+green   = '#9ECE6A'
+yellow  = '#E0AF68'
+blue    = '#7AA2F7'
+magenta = '#BB9AF7'
+cyan    = '#7DCFFF'
+white   = '#C0CAF5'
+
+[colors.bright]
+black   = '#414868'
+red     = '#F7768E'
+green   = '#9ECE6A'
+yellow  = '#E0AF68'
+blue    = '#7AA2F7'
+magenta = '#BB9AF7'
+cyan    = '#7DCFFF'
+white   = '#C0CAF5'
