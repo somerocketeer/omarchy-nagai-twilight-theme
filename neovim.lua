@@ -1,4 +1,4 @@
--- LazyVim plugin spec: inject Nagai Sunset palette into Tokyonight
+-- LazyVim plugin spec: inject Nagai Twilight palette into Tokyonight
 -- Place this file under LazyVim's plugin specs (Omarchy will copy/link when applying the theme)
 return {
   {
@@ -8,7 +8,7 @@ return {
       style = "night",
       transparent = false,
 on_colors = function(c)
--- Core (Nagai Sunset, purple with blue injection, no orange)
+-- Core (Nagai Twilight, purple with blue injection, no orange)
         c.bg           = "#1F1A2E"
         c.bg_dark      = "#1A1625"
         c.bg_highlight = "#2D2640"

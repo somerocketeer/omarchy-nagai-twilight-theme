@@ -1,12 +1,12 @@
-name: Nagai Sunset
-slug: nagai-sunset
+name: Nagai Twilight
+slug: nagai-twilight
 version: 0.1.0
-description: "A warm dusk-inspired Omarchy theme with deep sunset hues."
+description: "A warm dusk-inspired Omarchy theme with deep twilight hues."
 license: MIT
 maintainers:
   - name: mcw
     email: ""
-tags: [dark, warm, sunset]
+tags: [dark, warm, twilight]
 palette: palette.yml
 apps:
   - alacritty

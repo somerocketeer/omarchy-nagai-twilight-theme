@@ -1,8 +1,8 @@
-# Omarchy Theme: Nagai Sunset
+# Omarchy Theme: Nagai Twilight
 
-A warm, dusk-inspired theme for Omarchy-compatible apps. Standalone project (no symlinks or Omarchy runtime integration yet).
+A warm, dusk-inspired theme for Omarchy-compatible apps.
 
-## Palette (Nagai Sunset)
+## Palette (Nagai Twilight)
 
 Core (purple-forward, no orange)
 - Primary Background:   #1F1A2E (Deep purple-twilight)
@@ -13,14 +13,14 @@ Core (purple-forward, no orange)
 - Tertiary Accent:      #FF79C6 (Pink horizon)
 - Text Primary:         #E9E4F5 (Soft pearl)
 - Text Secondary:       #C8BFD8 (Muted lavender)
-- Text Dim:             #6B5F89 (Twilight purple-gray)
-- Success:              #72B79C (Seafoam green)
+- Text Dim:             #726693 (Twilight purple-gray)
+- Success:              #6FB3A8 (Teal-shifted green)
 - Warning:              #EADDA6 (Soft sand)
 - Error:                #FF5555 (Warm red)
-- Info:                 #8BE9FD (Sky cyan)
+- Info:                 #5B8FB9 (Muted sky blue)
 
 Extras
-- Selection Background: #44475A
+- Selection Background: #3A3457
 - ANSI Normal/Bright for terminals included in alacritty.toml
 
 See palette.yml for machine-readable values.
@@ -49,17 +49,3 @@ This repository uses a flat layout for configs (only backgrounds/ and preview/ a
 - Neovim (LazyVim): neovim.lua → ~/.config/nvim/lua/plugins/neovim.lua
 - Chromium: chromium.theme
 - Icons: icons.theme (Yaru-orange)
-
-No runtime integration or symlinks are included yet.
-
-## Design philosophy (Updated)
-This revised palette aims to capture Nagai's purple-to-pink twilight more authentically:
-- Deep purple base for a dreamy twilight atmosphere
-- Violet as the primary accent for iconic purple sunsets
-- Pink horizon glow adds warmth without overpowering
-- Aqua/cyan evokes pools and ocean reflections
-- Peach highlights provide gentle warmth
-- Soft whites for an ethereal, readable interface
-
-## Credits
-Inspired by https://github.com/bjarneo/omarchy-reverie-theme for project layout ideas.
