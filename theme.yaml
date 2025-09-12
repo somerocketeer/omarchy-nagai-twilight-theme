@@ -1,0 +1,22 @@
+name: Nagai Sunset
+slug: nagai-sunset
+version: 0.1.0
+description: "A warm dusk-inspired Omarchy theme with deep sunset hues."
+license: MIT
+maintainers:
+  - name: mcw
+    email: ""
+tags: [dark, warm, sunset]
+palette: palette/nagai-sunset.yml
+apps:
+  - alacritty
+  - waybar
+  - hyprland
+  - mako
+  - btop
+  - walker
+  - neovim
+  - chromium
+  - icons
+notes: |
+  Standalone theme project. No symlinks or Omarchy runtime integration yet.
