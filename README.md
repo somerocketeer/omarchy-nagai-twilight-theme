@@ -44,7 +44,7 @@ This repository uses a flat layout for configs (only backgrounds/ and preview/ a
 - Hyprlock: hyprlock.conf
 - Mako: mako.conf → ~/.config/mako/config
 - SwayOSD: swayosd.css
-- btop: btop.theme → ~/.config/btop/themes/nagai_sunset.theme
+- btop: btop.theme → ~/.config/btop/themes/nagai_twilight.theme
 - Walker: walker.css
 - Neovim (LazyVim): neovim.lua → ~/.config/nvim/lua/plugins/neovim.lua
 - Chromium: chromium.theme
