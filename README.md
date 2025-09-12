@@ -2,6 +2,8 @@
 
 A warm, dusk-inspired theme for Omarchy-compatible apps.
 
+<img width="3840" height="2560" alt="screenshot-2025-09-12_11-22-57" src="https://github.com/user-attachments/assets/38e4bdb7-5893-4174-a0d0-c8f25ab07937" />
+
 ## Palette (Nagai Twilight)
 
 Core (purple-forward, no orange)
@@ -23,29 +25,6 @@ Extras
 - Selection Background: #3A3457
 - ANSI Normal/Bright for terminals included in alacritty.toml
 
-See palette.yml for machine-readable values.
+See `palette.yml` for machine-readable values.
 
-## Apps covered (initial)
-- Alacritty
-- Waybar
-- Hyprland
-- Mako
-- btop
-- Walker
-- Neovim (LazyVim spec)
-- Chromium (flags)
-- Icons (Yaru-orange)
-
-## Usage (manual copy)
-This repository uses a flat layout for configs (only backgrounds/ and preview/ are directories).
-- Alacritty: alacritty.toml (import from your Alacritty config)
-- Waybar: waybar.css
-- Hyprland: hyprland-colors.conf (source from your hyprland.conf)
-- Hyprlock: hyprlock.conf
-- Mako: mako.conf → ~/.config/mako/config
-- SwayOSD: swayosd.css
-- btop: btop.theme → ~/.config/btop/themes/nagai_twilight.theme
-- Walker: walker.css
-- Neovim (LazyVim): neovim.lua → ~/.config/nvim/lua/plugins/neovim.lua
-- Chromium: chromium.theme
-- Icons: icons.theme (Yaru-orange)
+[Background source](https://www.reddit.com/r/wallpaper/comments/14v0vis/pacific_breeze_2_by_hiroshi_nagai_3840x2160/) 
