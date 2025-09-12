@@ -1,0 +1,41 @@
+[colors.primary]
+background = "#1F1A2E"
+foreground = "#E9E4F5"
+
+[colors.cursor]
+cursor = "#BD93F9"  # Violet cursor
+text = "#1F1A2E"
+
+[colors.selection]
+background = "#3A3457"
+text = "#E9E4F5"
+
+[colors.normal]
+black   = "#1A1625"
+red     = "#FF5555"
+green   = "#6FB3A8"
+yellow  = "#EADDA6"
+blue    = "#8BE9FD"
+magenta = "#BD93F9"
+cyan    = "#406E82"
+white   = "#E9E4F5"
+
+[colors.bright]
+black   = "#4D4266"
+red     = "#FF79C6"
+green   = "#8BD0C1"
+yellow  = "#F1FA8C"
+blue    = "#8BE9FD"
+magenta = "#BD93F9"
+cyan    = "#4C84A0"
+white   = "#FFFFFF"
+
+[colors.dim]
+black   = "#1A1625"
+red     = "#FF5555"
+green   = "#5AA294"
+yellow  = "#EADDA6"
+blue    = "#5B8FB9"
+magenta = "#BD93F9"
+cyan    = "#355B6B"
+white   = "#C8BFD8"

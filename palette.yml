@@ -1,0 +1,42 @@
+# Nagai Sunset palette (machine-readable)
+primary_bg: "#1F1A2E"        # Deep purple-twilight
+secondary_bg: "#1A1625"      # Darker violet-black
+tertiary_bg: "#2D2640"       # Elevated purple surface
+primary_accent: "#BD93F9"    # Violet sunset
+secondary_accent: "#5B8FB9"  # Deeper muted sky blue
+tertiary_accent: "#FF79C6"   # Pink horizon
+text_primary: "#E9E4F5"      # Soft pearl
+text_secondary: "#C8BFD8"    # Muted lavender
+text_dim: "#726693"          # Twilight purple-gray (slightly lifted)
+success: "#6FB3A8"           # Teal-shifted success (green.500)
+warning: "#EADDA6"           # Soft sand
+error: "#FF5555"             # Warm red
+info: "#5B8FB9"              # Deeper muted sky blue
+selection_bg: "#3A3457"
+
+green:
+  "300": "#A6DACD"  # soft
+  "400": "#8BD0C1"  # bright
+  "500": "#6FB3A8"  # primary
+  "600": "#5AA294"  # emphasis
+  "700": "#3F7265"  # graph
+
+# Terminal recommended ANSI (as used in Alacritty config)
+ansi_normal:
+  black:   "#1A1625"
+  red:     "#FF5555"
+  green:   "#6FB3A8"
+  yellow:  "#EADDA6"
+  blue:    "#8BE9FD"
+  magenta: "#BD93F9"
+  cyan:    "#406E82"
+  white:   "#E9E4F5"
+ansi_bright:
+  black:   "#4D4266"
+  red:     "#FF79C6"
+  green:   "#8BD0C1"
+  yellow:  "#F1FA8C"
+  blue:    "#8BE9FD"
+  magenta: "#BD93F9"
+  cyan:    "#4C84A0"
+  white:   "#FFFFFF"

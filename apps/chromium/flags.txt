@@ -1,3 +1,0 @@
---set-user-color="26,27,38"
---set-color-scheme="dark"
---set-color-variant="expressive"

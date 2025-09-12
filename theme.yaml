@@ -7,7 +7,7 @@ maintainers:
   - name: mcw
     email: ""
 tags: [dark, warm, sunset]
-palette: palette/nagai-sunset.yml
+palette: palette.yml
 apps:
   - alacritty
   - waybar
