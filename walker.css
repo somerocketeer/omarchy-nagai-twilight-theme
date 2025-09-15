@@ -1,7 +1,7 @@
-@define-color selected-text #BD93F9;
+@define-color selected-text #E9E4F5;
 @define-color text #E9E4F5;
 @define-color base #1F1A2E;
-@define-color border #BD93F9;
+@define-color border #5B8FB9;
 @define-color foreground #E9E4F5;
 @define-color background #1F1A2E;
 @define-color selected-gradient linear-gradient(90deg, #3A3457 0%, #4D4266 100%);
@@ -9,3 +9,134 @@
 @define-color caret #FF79C6;
 @define-color success #6FB3A8;
 @define-color success-alt #8BD0C1;
+
+window,
+#window,
+#box {
+  background-color: @background;
+  color: @foreground;
+  border: 1px solid alpha(@border, 0.5);
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow:
+    0 18px 38px rgba(15, 10, 25, 0.45),
+    0 15px 12px rgba(15, 10, 25, 0.3);
+}
+
+entry,
+#input,
+#password,
+#typeahead {
+  background-color: @base;
+  color: @text;
+  caret-color: @caret;
+  border: 1px solid alpha(@border, 0.55);
+  border-radius: 8px;
+  padding: 6px 10px;
+  box-shadow: none;
+}
+
+entry selection {
+  background-color: alpha(@selected-accent, 0.45);
+  color: @selected-text;
+}
+
+#search {
+  background-color: alpha(@base, 0.85);
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid alpha(@border, 0.35);
+}
+
+#prompt,
+#clear,
+#typeahead {
+  color: alpha(@foreground, 0.7);
+}
+
+#prompt {
+  margin-right: 8px;
+}
+
+listview,
+listbox,
+scrolledwindow {
+  background-color: transparent;
+}
+
+scrolledwindow {
+  max-height: none;
+}
+
+#list {
+  min-height: 0;
+}
+
+row,
+.item {
+  padding: 4.5px 6.75px;
+  margin: 2.25px 0;
+  border-radius: 8px;
+  color: @foreground;
+  transition: background-color 120ms ease, border-color 120ms ease;
+  border-left: 3px solid transparent;
+}
+
+row:hover,
+.item:hover {
+  background-color: alpha(@selected-accent, 0.14);
+}
+
+row:selected,
+row:selected:hover,
+.item:selected,
+.item:selected:hover {
+  background-color: alpha(@selected-accent, 0.25);
+  background-image: @selected-gradient;
+  color: @selected-text;
+  border-left: 3px solid @selected-accent;
+}
+
+row:selected label,
+.item:selected label,
+row:selected image,
+.item:selected image {
+  color: @selected-text;
+}
+
+child {
+  padding: 4.5px 6.75px;
+  margin: 2.25px 0;
+  border-radius: 8px;
+  color: @foreground;
+  transition: background-color 120ms ease, border-color 120ms ease;
+  border-left: 3px solid transparent;
+}
+
+child:hover {
+  background-color: alpha(@selected-accent, 0.14);
+}
+
+child:selected,
+child:hover:selected {
+  background-color: alpha(@selected-accent, 0.25);
+  background-image: @selected-gradient;
+  color: @selected-text;
+  border-left: 3px solid @selected-accent;
+}
+
+child:selected #label,
+child:selected #sub,
+child:selected #icon,
+child:selected #activationlabel,
+child:selected #clear,
+child:selected #prompt,
+child:selected #typeahead {
+  color: @selected-text;
+}
+
+.item:focus,
+row:focus,
+child:focus {
+  outline: none;
+}
