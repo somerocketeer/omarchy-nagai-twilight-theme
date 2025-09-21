@@ -1,6 +1,8 @@
 # Omarchy Theme: Nagai Twilight
 
-A warm, dusk-inspired theme for Omarchy-compatible apps.
+A warm, dusk-inspired theme based on the work of Hiroshi Nagai.
+
+<img width="3840" height="2560" alt="screenshot-2025-09-20_22-55-45" src="https://github.com/user-attachments/assets/b7ee027c-511a-4915-917b-015cc7edaba4" />
 
 ## Palette
 - Primary Background:   #1F1A2E (deep purple-twilight)
