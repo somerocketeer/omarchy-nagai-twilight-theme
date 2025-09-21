@@ -11,3 +11,5 @@
 @define-color error #FF5555;
 @define-color info #5B8FB9;
 @define-color muted #726693;
+@define-color border-hover #BD93F9;
+@define-color border-active #BD93F9;
